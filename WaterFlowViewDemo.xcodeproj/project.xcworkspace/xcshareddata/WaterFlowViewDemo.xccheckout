@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37A4EB13-3414-46E7-8E0E-E28DAFFAAE63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WaterFlowViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>54D8DAEF-0161-49D8-8A11-FB99AA2374E1</key>
+		<string>https://github.com/dabindeng/WaterFlowViewDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaterFlowViewDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>54D8DAEF-0161-49D8-8A11-FB99AA2374E1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dabindeng/WaterFlowViewDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54D8DAEF-0161-49D8-8A11-FB99AA2374E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54D8DAEF-0161-49D8-8A11-FB99AA2374E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WaterFlowViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
