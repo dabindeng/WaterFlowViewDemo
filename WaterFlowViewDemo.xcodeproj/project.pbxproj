@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C35A73F15873EE500239C82 /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35A73E15873EE500239C82 /* ImageViewCell.m */; };
+		1C35A7411587420000239C82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C35A7401587420000239C82 /* QuartzCore.framework */; };
+		1C94BF9E1588981A00B5604D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1C94BF901588981A00B5604D /* LICENSE */; };
+		1C94BF9F1588981A00B5604D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C94BF911588981A00B5604D /* README.md */; };
+		1C94BFA01588981A00B5604D /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94BF931588981A00B5604D /* SDImageCache.m */; };
+		1C94BFA11588981A00B5604D /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94BF971588981A00B5604D /* SDWebImageDownloader.m */; };
+		1C94BFA21588981A00B5604D /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94BF9A1588981A00B5604D /* SDWebImageManager.m */; };
+		1C94BFA31588981A00B5604D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94BF9D1588981A00B5604D /* UIImageView+WebCache.m */; };
 		1CAA4A281585A0190071F379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAA4A271585A0190071F379 /* UIKit.framework */; };
 		1CAA4A2A1585A0190071F379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAA4A291585A0190071F379 /* Foundation.framework */; };
 		1CAA4A2C1585A0190071F379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAA4A2B1585A0190071F379 /* CoreGraphics.framework */; };
 		1CAA4A321585A0190071F379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA4A301585A0190071F379 /* InfoPlist.strings */; };
 		1CAA4A341585A0190071F379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA4A331585A0190071F379 /* main.m */; };
 		1CAA4A381585A0190071F379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA4A371585A0190071F379 /* AppDelegate.m */; };
+		1CAA4A401585A0300071F379 /* WaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA4A3F1585A0300071F379 /* WaterFlowView.m */; };
+		1CAA4A471585C5F70071F379 /* WaterFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA4A461585C5F70071F379 /* WaterFlowViewCell.m */; };
+		1CAA4A4A1585CC680071F379 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA4A491585CC680071F379 /* CenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C35A73D15873EE500239C82 /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		1C35A73E15873EE500239C82 /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		1C35A7401587420000239C82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1C94BF901588981A00B5604D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C94BF911588981A00B5604D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1C94BF921588981A00B5604D /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		1C94BF931588981A00B5604D /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		1C94BF941588981A00B5604D /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		1C94BF951588981A00B5604D /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		1C94BF961588981A00B5604D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		1C94BF971588981A00B5604D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1C94BF981588981A00B5604D /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		1C94BF991588981A00B5604D /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		1C94BF9A1588981A00B5604D /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		1C94BF9B1588981A00B5604D /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		1C94BF9C1588981A00B5604D /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		1C94BF9D1588981A00B5604D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		1CAA4A231585A0190071F379 /* WaterFlowViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFlowViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAA4A271585A0190071F379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CAA4A291585A0190071F379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CAA4A2B1585A0190071F379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1CAA4A2F1585A0190071F379 /* WaterFlowViewDemo-Info.plist */ = {isa = PBXFileReference; path = "WaterFlowViewDemo-Info.plist"; sourceTree = "<group>"; };
+		1CAA4A2F1585A0190071F379 /* WaterFlowViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaterFlowViewDemo-Info.plist"; sourceTree = "<group>"; };
 		1CAA4A311585A0190071F379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CAA4A331585A0190071F379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1CAA4A351585A0190071F379 /* WaterFlowViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "WaterFlowViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		1CAA4A361585A0190071F379 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CAA4A351585A0190071F379 /* WaterFlowViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterFlowViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1CAA4A361585A0190071F379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CAA4A371585A0190071F379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CAA4A3E1585A0300071F379 /* WaterFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowView.h; sourceTree = "<group>"; };
+		1CAA4A3F1585A0300071F379 /* WaterFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowView.m; sourceTree = "<group>"; };
+		1CAA4A451585C5F70071F379 /* WaterFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowViewCell.h; sourceTree = "<group>"; };
+		1CAA4A461585C5F70071F379 /* WaterFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowViewCell.m; sourceTree = "<group>"; };
+		1CAA4A481585CC680071F379 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		1CAA4A491585CC680071F379 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C35A7411587420000239C82 /* QuartzCore.framework in Frameworks */,
 				1CAA4A281585A0190071F379 /* UIKit.framework in Frameworks */,
 				1CAA4A2A1585A0190071F379 /* Foundation.framework in Frameworks */,
 				1CAA4A2C1585A0190071F379 /* CoreGraphics.framework in Frameworks */,
@@ -42,6 +77,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C94BF8E158897DB00B5604D /* OpenLibary */ = {
+			isa = PBXGroup;
+			children = (
+				1C94BF8F158897E700B5604D /* Libs_SDWebImage */,
+			);
+			name = OpenLibary;
+			path = WaterFlowViewDemo;
+			sourceTree = "<group>";
+		};
+		1C94BF8F158897E700B5604D /* Libs_SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				1C94BF901588981A00B5604D /* LICENSE */,
+				1C94BF911588981A00B5604D /* README.md */,
+				1C94BF921588981A00B5604D /* SDImageCache.h */,
+				1C94BF931588981A00B5604D /* SDImageCache.m */,
+				1C94BF941588981A00B5604D /* SDImageCacheDelegate.h */,
+				1C94BF951588981A00B5604D /* SDWebImageCompat.h */,
+				1C94BF961588981A00B5604D /* SDWebImageDownloader.h */,
+				1C94BF971588981A00B5604D /* SDWebImageDownloader.m */,
+				1C94BF981588981A00B5604D /* SDWebImageDownloaderDelegate.h */,
+				1C94BF991588981A00B5604D /* SDWebImageManager.h */,
+				1C94BF9A1588981A00B5604D /* SDWebImageManager.m */,
+				1C94BF9B1588981A00B5604D /* SDWebImageManagerDelegate.h */,
+				1C94BF9C1588981A00B5604D /* UIImageView+WebCache.h */,
+				1C94BF9D1588981A00B5604D /* UIImageView+WebCache.m */,
+			);
+			name = Libs_SDWebImage;
+			sourceTree = "<group>";
+		};
+		1C94BFA41588A22A00B5604D /* WaterFlowLib */ = {
+			isa = PBXGroup;
+			children = (
+				1C35A73D15873EE500239C82 /* ImageViewCell.h */,
+				1C35A73E15873EE500239C82 /* ImageViewCell.m */,
+				1CAA4A451585C5F70071F379 /* WaterFlowViewCell.h */,
+				1CAA4A461585C5F70071F379 /* WaterFlowViewCell.m */,
+				1CAA4A3E1585A0300071F379 /* WaterFlowView.h */,
+				1CAA4A3F1585A0300071F379 /* WaterFlowView.m */,
+			);
+			name = WaterFlowLib;
+			sourceTree = "<group>";
+		};
 		1CAA4A181585A0190071F379 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +140,8 @@
 		1CAA4A261585A0190071F379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C94BF8E158897DB00B5604D /* OpenLibary */,
+				1C35A7401587420000239C82 /* QuartzCore.framework */,
 				1CAA4A271585A0190071F379 /* UIKit.framework */,
 				1CAA4A291585A0190071F379 /* Foundation.framework */,
 				1CAA4A2B1585A0190071F379 /* CoreGraphics.framework */,
@@ -72,8 +152,11 @@
 		1CAA4A2D1585A0190071F379 /* WaterFlowViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1C94BFA41588A22A00B5604D /* WaterFlowLib */,
 				1CAA4A361585A0190071F379 /* AppDelegate.h */,
 				1CAA4A371585A0190071F379 /* AppDelegate.m */,
+				1CAA4A481585CC680071F379 /* CenterViewController.h */,
+				1CAA4A491585CC680071F379 /* CenterViewController.m */,
 				1CAA4A2E1585A0190071F379 /* Supporting Files */,
 			);
 			path = WaterFlowViewDemo;
@@ -142,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAA4A321585A0190071F379 /* InfoPlist.strings in Resources */,
+				1C94BF9E1588981A00B5604D /* LICENSE in Resources */,
+				1C94BF9F1588981A00B5604D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +239,14 @@
 			files = (
 				1CAA4A341585A0190071F379 /* main.m in Sources */,
 				1CAA4A381585A0190071F379 /* AppDelegate.m in Sources */,
+				1CAA4A401585A0300071F379 /* WaterFlowView.m in Sources */,
+				1CAA4A471585C5F70071F379 /* WaterFlowViewCell.m in Sources */,
+				1CAA4A4A1585CC680071F379 /* CenterViewController.m in Sources */,
+				1C35A73F15873EE500239C82 /* ImageViewCell.m in Sources */,
+				1C94BFA01588981A00B5604D /* SDImageCache.m in Sources */,
+				1C94BFA11588981A00B5604D /* SDWebImageDownloader.m in Sources */,
+				1C94BFA21588981A00B5604D /* SDWebImageManager.m in Sources */,
+				1C94BFA31588981A00B5604D /* UIImageView+WebCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +313,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaterFlowViewDemo/WaterFlowViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "WaterFlowViewDemo/WaterFlowViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -231,7 +326,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaterFlowViewDemo/WaterFlowViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "WaterFlowViewDemo/WaterFlowViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -255,6 +352,7 @@
 				1CAA4A3D1585A0190071F379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

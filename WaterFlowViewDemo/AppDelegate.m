@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  WaterFlowViewDemo
 //
-//  Created by man huge on 12-6-11.
+//  Created by Smallsmall on 12-6-11.
 //  Copyright (c) 2012年 activation group. All rights reserved.
 //
 
@@ -24,6 +24,14 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    CenterViewController *centerViewCtrl = [[CenterViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:centerViewCtrl];
+    [centerViewCtrl release];
+    [self.window setRootViewController:nav];
+    [nav release];
     return YES;
 }
 

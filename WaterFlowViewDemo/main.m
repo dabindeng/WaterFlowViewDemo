@@ -2,7 +2,7 @@
 //  main.m
 //  WaterFlowViewDemo
 //
-//  Created by man huge on 12-6-11.
+//  Created by Smallsmall on 12-6-11.
 //  Copyright (c) 2012年 activation group. All rights reserved.
 //
 
